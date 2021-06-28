@@ -11,7 +11,8 @@ import SwiftUI
 struct BookifyApp: App {
     var body: some Scene {
         WindowGroup {
-            BookifyView()
+            BookifyHomeView()
+                .environmentObject(BookifyModel())
         }
     }
 }

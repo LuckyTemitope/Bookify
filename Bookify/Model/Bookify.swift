@@ -7,13 +7,13 @@
 
 import Foundation
 
-class BookifyModel: Identifiable, Decodable {
+class Bookify: Identifiable, Decodable {
     
     var id : UUID?
     var bookName : String
     var author : String
     var bookCoverImage : String
-    var favourite : Bool?
+    var readLater : Bool
     var rate : Int?
     var contents : [String]
     
